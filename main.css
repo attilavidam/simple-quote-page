@@ -7,17 +7,29 @@
 
 
 body {
+  max-width: 480px;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: url('assets/lánchíd.jpg') no-repeat center center fixed;
+  background: url('assets/lanchid') no-repeat center center fixed;
   background-size: cover;
-  line-height: 150%;
+  line-height: 250%;
 }
 
-*content {
-  width: 90%;
-  margin: 0 auto;
+.content {
+  width: 80%;
+  margin: 30% auto 70% auto;
   text-align: center;
+}
+
+.citation {
+  font-size: 26px;
+  font-family: Arial;
+}
+
+.author {
+  margin-top: 50px;
+  font-size: 18px;
+  font-family: Arial;
 }
