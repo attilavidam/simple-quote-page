@@ -7,7 +7,7 @@
 
 
 body {
-  max-width: 480px;
+  max-width:  700px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -19,8 +19,13 @@ body {
 
 .content {
   width: 80%;
-  margin: 30% auto 70% auto;
+  margin: 40% auto 60% auto;
   text-align: center;
+  background-color: rgba(0, 0, 0,.5);
+  color: blanchedalmond;
+  border-radius: 5%;
+  padding: 5%;
+  box-shadow: hsla(100, 0%, 0%, .8) 10px 10px 30px;
 }
 
 .citation {
