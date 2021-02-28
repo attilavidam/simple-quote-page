@@ -29,13 +29,13 @@ body {
 }
 
 .citation {
-  font-size: 26px;
+  font-size: 1.625rem;
   font-weight: 600;
   font-family: Arial;
 }
 
 .author {
-  margin-top: 50px;
-  font-size: 18px;
+  margin-top: 3.125rem;
+  font-size: 1.125rem;
   font-family: Arial;
 }
