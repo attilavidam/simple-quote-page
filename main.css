@@ -1,13 +1,10 @@
 * {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
-  font-size: 100%;
 }
 
 
 body {
-  max-width:  700px;
+  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -15,17 +12,19 @@ body {
   background: url('assets/lanchid') no-repeat center center fixed;
   background-size: cover;
   line-height: 250%;
+  margin: 3rem auto;
 }
 
 .content {
   width: 80%;
+  max-width:  700px;
   margin: 40% auto 60% auto;
   text-align: center;
   background-color: rgba(0, 0, 0,.5);
   color: blanchedalmond;
   border-radius: 5%;
   padding: 5%;
-  box-shadow: hsla(100, 0%, 0%, .8) 10px 10px 30px;
+  box-shadow: hsla(100, 0%, 0%, .8) .625rem .625rem 1.875rem;
 }
 
 .citation {
