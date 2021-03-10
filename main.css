@@ -17,7 +17,7 @@ body {
 
 .content {
   width: 80%;
-  max-width:  700px;
+  max-width:  43.75rem;
   margin: 40% auto 60% auto;
   text-align: center;
   background-color: rgba(0, 0, 0,.5);
